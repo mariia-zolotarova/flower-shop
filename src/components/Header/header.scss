@@ -1,0 +1,29 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.header__side{
+  display: flex;
+  flex-direction: row;
+}
+
+.header__button{
+  display: flex;
+  width: 180px;
+  height: 83px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__button-shop,
+.header__button-contact{
+  border-right: 1px solid black;
+}
+
+.header__button-sign-in,
+.header__button-cart{
+  border-left: 1px solid black;
+}
